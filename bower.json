@@ -1,0 +1,21 @@
+{
+  "name": "react-with-webpack",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "yura <yurkinnnn@gmail.com>"
+  ],
+  "license": "ISC",
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "react": "^15.4.0"
+  }
+}
