@@ -67,21 +67,21 @@
 	                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                */
 
 
-	var Page1 = function (_React$Component) {
-	    _inherits(Page1, _React$Component);
+	var Page2 = function (_React$Component) {
+	    _inherits(Page2, _React$Component);
 
-	    function Page1(props) {
-	        _classCallCheck(this, Page1);
+	    function Page2(props) {
+	        _classCallCheck(this, Page2);
 
-	        var _this = _possibleConstructorReturn(this, (Page1.__proto__ || Object.getPrototypeOf(Page1)).call(this, props));
+	        var _this = _possibleConstructorReturn(this, (Page2.__proto__ || Object.getPrototypeOf(Page2)).call(this, props));
 
 	        _this.state = {
-	            variable: 'Hello!'
+	            variable: 'Hello page2!'
 	        };
 	        return _this;
 	    }
 
-	    _createClass(Page1, [{
+	    _createClass(Page2, [{
 	        key: 'render',
 	        value: function render() {
 	            return _React2.default.createElement(
@@ -92,10 +92,10 @@
 	        }
 	    }]);
 
-	    return Page1;
+	    return Page2;
 	}(_React2.default.Component);
 
-	_ReactDOM2.default.render(_React2.default.createElement(Page1, null), document.getElementById('content'));
+	_ReactDOM2.default.render(_React2.default.createElement(Page2, null), document.getElementById('content'));
 
 /***/ },
 /* 1 */

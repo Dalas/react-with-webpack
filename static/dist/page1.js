@@ -76,7 +76,7 @@
 	        var _this = _possibleConstructorReturn(this, (Page1.__proto__ || Object.getPrototypeOf(Page1)).call(this, props));
 
 	        _this.state = {
-	            variable: 'Hello!'
+	            variable: 'Hello page1!'
 	        };
 	        return _this;
 	    }

@@ -10,7 +10,7 @@ class Page1 extends React.Component {
         super(props);
 
         this.state = {
-            variable: 'Hello!'
+            variable: 'Hello page1!'
         }
     }
 

@@ -10,7 +10,7 @@ class Page2 extends React.Component {
         super(props);
 
         this.state = {
-            variable: 'Hello!'
+            variable: 'Hello page2!'
         }
     }
 
@@ -24,6 +24,6 @@ class Page2 extends React.Component {
 }
 
 ReactDOM.render(
-    <Page12/>,
+    <Page2/>,
     document.getElementById('content')
 );
