@@ -76,17 +76,24 @@
 	        var _this = _possibleConstructorReturn(this, (Page1.__proto__ || Object.getPrototypeOf(Page1)).call(this, props));
 
 	        _this.state = {
-	            variable: 'Hello page1!'
+	            variable: 'Hello page 1!'
 	        };
+
+	        _this.click = _this.click.bind(_this);
 	        return _this;
 	    }
 
 	    _createClass(Page1, [{
+	        key: 'click',
+	        value: function click() {
+	            console.log(this);
+	        }
+	    }, {
 	        key: 'render',
 	        value: function render() {
 	            return _React2.default.createElement(
 	                'div',
-	                null,
+	                { onClick: this.click },
 	                this.state.variable
 	            );
 	        }

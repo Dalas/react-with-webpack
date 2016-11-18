@@ -18,7 +18,7 @@ module.exports = {
             {
                 test: /\.js$/,
                 loader: 'babel',
-                exclude: /node_modules/,
+                exclude: /(node_modules|webpack_modules)/,
                 query: {
                     presets: ['es2015', 'react']
                 }
@@ -28,5 +28,9 @@ module.exports = {
     externals: {
         "React": "React",
         "ReactDOM": "ReactDOM"
+    },
+    devServer: {
+        inline: true,
+        hot: true
     }
 };

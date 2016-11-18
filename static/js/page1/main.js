@@ -10,13 +10,19 @@ class Page1 extends React.Component {
         super(props);
 
         this.state = {
-            variable: 'Hello page1!'
-        }
+            variable: 'Hello page 1!'
+        };
+
+        this.click = this.click.bind(this);
+    }
+
+    click() {
+        console.log(this)
     }
 
     render () {
         return (
-            <div>
+            <div onClick={ this.click }>
                 { this.state.variable }
             </div>
         )
